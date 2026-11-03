@@ -62,7 +62,9 @@ export default function Home() {
         </div>
         <div className="card relative overflow-hidden rounded-3xl p-6">
           <div className="absolute -right-12 -top-12 h-40 w-40 rounded-full bg-cyan-400/20 blur-3xl" />
-          <p className="font-mono text-xs text-cyan-300">MATCH (decision)-[:IMPLEMENTED_BY]->(commit)</p>
+          <p className="font-mono text-xs text-cyan-300">
+  {"MATCH (decision)-[:IMPLEMENTED_BY]->(commit)"}
+</p>
           <div className="mt-6 space-y-3">
             {[
               ["Repository", "public GitHub project"],
